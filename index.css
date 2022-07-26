@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.upper-container {
+    width: 50%;
+    height: 10%;
+    margin: 50px auto;
+    position: relative;
+}
+
+.upper-container1 {
+    width: 35%;
+    height: 100%;
+    padding-top: 20px;
+}
+
+#tasks {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+#lists {
+    font-size: 2.5rem;
+    margin-left: 10px;
+    opacity: 0.5;
+}
+
+.upper-container2 {
+    width: 30%;
+    height: 100%;
+    padding-top: 20px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+
+#addlist {
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    top: 0px;
+    right: 0px;
+    font-size: 30px;
+    opacity: 0.5;
+    padding-top: 25px;
+}
+
+#circle {
+    position: absolute;
+    width: 10%;
+    height: 100%;
+}
+
+.div1 {
+    position: absolute;
+    top: 15px;
+    right: 0;
+    font-size: 25px;
+    width: 85%;
+    text-align: left;
+    height: 15%;
+    color: darkred;
+    border-bottom: 1px solid black;
+
+}
+
+.div2 {
+    width: 90%;
+    height: 10%;
+    font-size: 20px;
+    color: deepskyblue;
+    text-align: right;
+    position: absolute;
+    top: 35%;
+    font-weight: bold;
+    text-decoration: line-through;
+    left: 0px;
+}
+
+.div3 {
+    width: 90%;
+    height: 10%;
+    position: absolute;
+    top: 52%;
+    text-align: left;
+    font-size: 20px;
+    left: 20px;
+}
+.div4{
+    margin-top: 50px;
+        margin-left: 160px; 
+}
+.card1 {
+    margin-top: 3px;
+    border: 1.5px solid green;
+    height: 45vh;
+    width: 15%;
+    position:relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px grey;
+
+}
+.text{
+    text-decoration: none;
+}
+
+.card2 {
+    margin-top: 3px;
+    border: 1.5px solid green;
+    height: 45vh;
+    width: 15%;
+    position:relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px grey;
+
+}
+
+.card3 {
+    margin-top: 3px;
+    border: 1.5px solid green;
+    height: 45vh;
+    width: 15%;
+    position:relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px grey;
+
+}
+.card5 {
+    margin-top: 3px;
+    border: 1.5px solid green;
+    height: 45vh;
+    width: 15%;
+    position:relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px grey;
+
+}
+.card4 {
+    margin-top: 3px;
+    border: 1.5px solid green;
+    height: 45vh;
+    width: 19%;
+    position:relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px grey;
+
+}
+
+.lower {
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#check {
+    width: 20px;
+    height: 20px;
+    margin-left: 1px;
+}
+.notshow{
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+}
+.pop-up{
+    position: absolute;
+    left: 37%;
+    top: 30%;
+    height: 25vh;
+    width: 27%;
+    border: 1.5px solid red;
+    border-radius: 10px;
+    color: red;
+    font-size: 18px;
+    box-shadow: 4px 4px  10px brown;
+    background-color: white;
+    padding: 20px;
+}
+.add-new{
+    opacity: 0.7;
+    font-size: 17px;
+}
+
+.pop-upbar{
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 85%;
+    height: 27%;
+    border: 1.5px solid red;
+    box-shadow: 1px 1px 3px brown;
+}
+.pop-up-button{
+    width: 25%;
+    height: 18%;
+    margin-top: 18px;
+    color: white;
+    background-color: tomato;
+    border-radius: 20px;
+    border: none;
+    position: absolute;
+    left: 130px;
+    font-size: 18px;
+}
+.pop-up-button2{
+    width: 20%;
+    height: 18%;
+    margin-top: 10px;
+    color: white;
+    background-color: tomato;
+    border-radius: 20px;
+    border: none;
+    position: absolute;
+    left: 130px;
+    font-size: 18px;
+}
+.first {
+    width: 50%;
+    height: 10%;
+    margin: 50px auto;
+    position: relative;
+    padding-top: 10px;
+    margin-right: 120px;
+}
+.notshow1{
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+}
+.second {
+    width: 30%;
+    height: 10%;
+    position: relative;
+    padding-top: 10px;
+    margin-left: 530px;
+    
+}
+.first h1::before{
+    content: "";
+    height: 2px;
+    width: 30vw;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: -2;
+  }
+  .first h1::after{
+    content: "";
+    height: 2px;
+    width: 30vw;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    z-index: -2;
+  }
+  .first span{
+    background: white;
+    padding: 0 30px;
+  }
